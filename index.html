@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Tracker Pro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 style="color: var(--neon-green);">WORKOUT TRACKER</h1>
+        <div style="display: flex; align-items: center; gap: 1rem;">
+            <img src="GenP.jpg" class="profile-img" alt="Profile">
+            <a href="https://www.instagram.com/genz_monkess108?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" style="color: var(--neon-blue); font-size: 1.2rem;">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </nav>
+
+    <div class="days-container">
+        <button class="day-btn" onclick="showDay('monday')">Monday</button>
+        <button class="day-btn" onclick="showDay('tuesday')">Tuesday</button>
+        <button class="day-btn" onclick="showDay('wednesday')">Wednesday</button>
+        <button class="day-btn" onclick="showDay('thursday')">Thursday</button>
+        <button class="day-btn" onclick="showDay('friday')">Friday</button>
+        <button class="day-btn" onclick="showDay('saturday')">Saturday</button>
+    </div>
+
+    <div id="workout-container" class="workout-section"></div>
+    <script src="script.js"></script>
+</body>
+</html>
